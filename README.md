@@ -63,23 +63,3 @@ Responsável por renderizar a página de registro.
 
 # [POST] /registration
 API de cadastro responsável por receber os dados submetidos pelo usuário em formato JSON. Valida os campos e retorna uma mensagem de sucesso.
-
-Estrutura do projeto:
-├── backend
-│ ├── server.js
-│ └── ...
-├── frontend
-│ ├── src
-│ │ ├── components
-│ │ │ ├── Header.tsx
-│ │ │ ├── Register
-│ │ │ │ ├── FirstStep.tsx
-│ │ │ │ ├── SecondStep.tsx
-│ │ │ │ ├── ThirdStep.tsx
-│ │ │ │ └── Review.tsx
-│ │ │ └── Container.tsx
-│ │ ├── App.tsx
-│ │ ├── main.tsx
-│ │ └── api.ts
-│ └── ...
-└── README.md
